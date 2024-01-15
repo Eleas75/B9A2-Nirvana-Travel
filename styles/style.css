@@ -1,6 +1,127 @@
+
+/* shared styles */
+
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Mulish', sans-serif;
+  
+}
+
+
+
+
+/* styles for nav */
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.nav-title{
+    width: 40%;
+    display: flex;
+    justify-content:center;
+    padding-right: 100px;
+    align-items: center;
+    
+}
+.nav-content{
+    width: 40%;
+}
+.container .nav-content li{
+list-style:none ;
+}
+.container .nav-content li a{
+    text-decoration: none;
+}
+.container .nav-content ul{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    min-height: 100px;
+    
+}
+/* styles for banner */
+.banner{
+    border: 2px solid red;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto ;
+    min-height: 500px;
+    border-radius: 16px;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url(../Images/Group\ 13\ \(1\)\ \(1\).png)
+    
+}
+.banner-title{
+    color: #FFF;
+
+font-family: Mulish;
+font-size: 34px;
+font-style: normal;
+font-weight: 800;
+}
+.banner-description{
+    color: #FFF;
+
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+}
+form{
+    max-width: 60%;
+    min-width:100px ;
+    border-radius: 16px;
+    margin: 20px auto;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+/* styles for main section */
+.tours{
+    max-width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+.destination{
+    max-width: 90%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.destination-content{
+    display: grid;
+     ;
+}
+.destination-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    
+  }
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
