@@ -8,7 +8,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 180px;
+    gap: 57%;
    }
    .nav-content{
     
@@ -43,7 +43,11 @@
         flex-wrap: wrap;
         justify-content:center;
         align-items: center;
+        border-radius: 8px;
         
+    }
+    .destination-container img{
+        object-fit: cover;
     }
     .card-container{
         display: flex;
@@ -83,6 +87,8 @@
         flex-direction:column;
         justify-content: space-around;
         align-items: center;
+        gap: 10px; 
+        height: auto;
       }
 }
 @media screen and (min-width:992px){
