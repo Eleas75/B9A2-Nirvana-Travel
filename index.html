@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
     <title>nirvana-travel</title>
 </head>
 <body>
@@ -11,11 +12,11 @@
 <nav class="container">
     <div class="nav-title">
         <img src="./Images/Group 40071 (2).png" alt=""> 
-        <h3 class="title"> Nirvana Travel</h3>
+        <h3 class="title"> Nirvana <span class="special">Travel</span></h3>
     </div>
     <div class="nav-content">
         <ul>
-            <li><a href="">Home</a></li>
+            <li><a href="" id="a-special">Home</a></li>
             <li><a href="">Packages</a></li>
             <li><a href="">Testimonial</a></li>
             <li><a href="">Blog</a></li>
@@ -27,10 +28,10 @@
     <h1 class="banner-title">Explore Your Travel</h1>
     <p class="banner-description">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
     <form action="">
-        <input type="text" placeholder="Where go">
+        <input type="text" placeholder="Where go" >
         <input type="text" placeholder="when">
         <input type="text" placeholder="Select Type ">
-        <input type="text" placeholder="Find Now">
+       <button class="btn-1"><img src="./Images/Frame (3).png" alt=""> Find Now</button>
         
     </form>
 </div>
@@ -98,26 +99,32 @@
 </div>
 <div class="newsletter-container">
     <div class="newsletter-content">
-        <h6>Newsletter</h6>
-        <caption>Get your daily dose of travel news & tips. Sign up today!</caption>
+        <h6 class="newsletter-title">Newsletter</h6>
+        <p class="newsletter-description">Get your daily dose of travel news & tips. Sign up today!</p>
+        <img src="./Images/Line 1.png" alt="">
         <input type="text" placeholder="Enter your name">
         <input type="email" placeholder="Enter your email
         ">
-        <button>Subscribes</button>
+        <button class="btn-2">Subscribe</button>
     </div>
-    <div class="newsletter-pic"></div>
+    <div class="newsletter-pic">
+        <div class="rotator">
+            <p id="rotator-p-1">Travel.com</p>
+            <p id="rotator-p-2">Save up to 70%</p>
+        </div>
+    </div>
 </div>
     </main>
     <footer>
 <div class="footer-container">
     <div class="nav-title">
         <img src="./Images/Group 40071 (2).png" alt=""> 
-        <h3 class="title"> Nirvana Travel</h3>
+        <h3 class="title"> Nirvana <span class="footer-special">Travel</span></h3>
     </div>
-    <p>Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. Leo erat maecenas vitae elementum ultricies nullam. </p>
+    <p class="footer-description">Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. Leo erat maecenas vitae elementum ultricies nullam. </p>
     <img src="./Images/Social.png" alt="">
-    <hr>
-    <p>2017, All Rights Reserved</p>
+    <img src="./Images/Line 2.png" alt="">
+    <p class="copyright">2017, All Rights Reserved</p>
 </div>
     </footer>
     

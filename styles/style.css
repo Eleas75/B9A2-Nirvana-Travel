@@ -11,25 +11,35 @@ body{
     font-family: 'Mulish', sans-serif;
   
 }
-
-
-
-
 /* styles for nav */
 .container{
+    width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    max-width: 1000px;
     margin: 0 auto;
 }
 .nav-title{
     width: 40%;
     display: flex;
     justify-content:center;
-    padding-right: 100px;
     align-items: center;
+    gap: 10px;
     
+}
+.title{
+    color: #131318;
+font-size: 25px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.special{
+    color: #FF5400;
+font-size: 25px;
+font-style: normal;
+font-weight: 800;
+
 }
 .nav-content{
     width: 40%;
@@ -39,6 +49,18 @@ list-style:none ;
 }
 .container .nav-content li a{
     text-decoration: none;
+    color: #424247;
+text-align: center;
+
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+
+}
+#a-special{
+    font-weight: 700;
+    color: #FF5400;
+    font-size: 15px;
 }
 .container .nav-content ul{
     display: flex;
@@ -49,8 +71,8 @@ list-style:none ;
 }
 /* styles for banner */
 .banner{
-    border: 2px solid red;
-    max-width: 1000px;
+   
+    width:80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -79,11 +101,42 @@ font-weight: 400;
 }
 form{
     max-width: 60%;
-    min-width:100px ;
+    min-width:60% ;
     border-radius: 16px;
     margin: 20px auto;
-    border-radius: 8px;
+    border-radius: 5px;
     background: rgba(255, 255, 255, 0.30);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 40px;
+    padding: 5px;
+}
+form input{
+    width: 120px;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    padding: 5px;
+}
+.btn-1{
+    color: #FFF;
+
+text-align: center;
+;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+border-radius: 8px;
+background: #FF5400;
+text-decoration: none;
+display: flex;
+flex-direction: row;
+
+align-items: center;
+width: 120px;
+height: 30px;
+border: none;
 }
 /* styles for main section */
 .tours{
@@ -144,20 +197,123 @@ form{
     width: 50%;
   }
   .newsletter-container{
-    max-width: 80%;
+    width: 80%;
     margin: 20px auto;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    gap: 20px;
   }
+ .newsletter-title{
+    color: #131318;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+
+ }
+ .newsletter-description{
+    color: #5A5A5D;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+ }
   .newsletter-content{
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .newsletter-content input{
+    width: 250px;
+height: 40px;
+color: rgba(19, 19, 24, 0.30);
+
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border: none;
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+
+  }
+  .btn-2{
+    width: 250px;
+height: 40px;
+border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+border: none;
+text-align: center;
+font-family: Mulish;
+font-size: 15px;
+font-style: normal;
+font-weight: 800;
+
   }
   .newsletter-pic{
     width: 60%;
     min-height: 400px;
 
     background-image: url(../Images/Rectangle\ 8\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    position: relative;
+  }
+  .rotator{
+    padding-top: 20px;
+    text-align: center;
+    align-items: center;
+    color: #FFF;
+    border-radius: 16px;
+background: #FF5400;
+width: 250px;
+height: 80px;
+transform: rotate(-19.628deg);
+position: absolute;
+top: 284px;
+left: 372px;
+  }
+  #rotator-p-1{
+    font-size: 15px;
+  }
+  #rotator-p-2{
+    font-size: 25px;
+  }
+  /* styles for footer */
+  .footer-container{
+    margin: 20px auto;
+    min-height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background: rgba(19, 19, 24, 0.05);
+  }
+  .footer-special{
+    color: #FF5400;
+
+font-size: 25px;
+font-style: normal;
+font-weight: 800;
+  }
+  .footer-description{
+    color: #5A5A5D;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+  }
+  .copyright{
+   
+    color: #5A5A5D;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
   }
