@@ -69,6 +69,7 @@ font-weight: 400;
     min-height: 100px;
     
 }
+
 /* styles for banner */
 .banner{
    
@@ -266,7 +267,7 @@ font-weight: 400;
   .choose-card{
     width: 45%;
     margin: 10px;
-    height: 250px;
+    min-height: 250px;
     padding: 30px 40px 30px 30px;
     
   }
@@ -362,12 +363,12 @@ font-weight: 800;
     color: #FFF;
     border-radius: 16px;
 background: #FF5400;
-width: 250px;
-height: 80px;
+width: 50%;
+height: 30%;
 transform: rotate(-19.628deg);
 position: absolute;
-top: 284px;
-left: 372px;
+top: 65%;
+left: 59%;
   }
   #rotator-p-1{
     font-size: 15px;
@@ -418,6 +419,13 @@ left: 372px;
     align-items: center;
     background: rgba(19, 19, 24, 0.05);
   }
+  .footer-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+  }
   .footer-special{
     color: #FF5400;
 
@@ -439,4 +447,7 @@ font-family: Inter;
 font-size: 12px;
 font-style: normal;
 font-weight: 300;
+  }
+  .line{
+    width: 70%;
   }
