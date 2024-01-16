@@ -210,6 +210,18 @@ margin-bottom: 20px;
     gap: 20px;
 
 }
+.destination-container div{
+    position: relative;
+}
+.destination-p{
+    position:absolute ;
+    top: 50%;
+    left: 50%;
+    color: #FFF;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+}
 .destination-title{
     color: #131318;
     text-align: center;
