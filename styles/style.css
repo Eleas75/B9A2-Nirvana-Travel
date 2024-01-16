@@ -22,7 +22,7 @@ body{
 .nav-title{
     width: 40%;
     display: flex;
-    justify-content:center;
+    
     align-items: center;
     gap: 10px;
     
@@ -112,6 +112,25 @@ form{
     height: 40px;
     padding: 5px;
 }
+.banner-p{
+    color: rgba(19, 19, 24, 0.50);
+
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;  
+    border-radius: 8px;
+background: #FFF;
+width: 120px;
+height: 30px;
+border-radius: 8px;
+padding: 5px;
+}
+select{
+    color: rgba(19, 19, 24, 0.50);
+    border: none;
+   
+}
 form input{
     width: 120px;
     height: 30px;
@@ -124,7 +143,7 @@ form input{
 
 text-align: center;
 ;
-font-size: 16px;
+font-size: 14px;
 font-style: normal;
 font-weight: 700;
 border-radius: 8px;
@@ -147,6 +166,40 @@ border: none;
     gap: 20px;
     
 }
+.tour-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.tour-title{
+    color: #131318;
+
+font-size: 30px;
+font-style: normal;
+font-weight: 800;
+margin-bottom: 20px;
+}
+.tour-description{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+margin-bottom: 20px;
+}
+.tour-content ul li{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.btn-tour{
+    text-align: center;
+    padding-left: 25px;
+}
+.tours img{
+    height: 400px;
+}
 .destination{
     max-width: 90%;
     margin: 20px auto;
@@ -154,30 +207,33 @@ border: none;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 20px;
 
 }
-.destination-content{
-    display: grid;
-     ;
+.destination-title{
+    color: #131318;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+     
+}
+.destination-description{
+    color: rgba(19, 19, 24, 0.70);
+
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
 }
 .destination-container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 20px;
+   
 }
-.container {
-    position: relative;
-    text-align: center;
-    color: white;
-    
-  }
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+
   .choose-container{
     margin: 20px auto;
     max-width: 80%;
@@ -185,6 +241,7 @@ border: none;
     flex-direction:column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
   }
   .card-container{
     display: flex;
@@ -192,9 +249,32 @@ border: none;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    
   }
   .choose-card{
-    width: 50%;
+    width: 45%;
+    margin: 10px;
+    height: 250px;
+    padding: 30px 40px 30px 30px;
+    
+  }
+  .card-1{
+    border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+
+background: rgba(251, 181, 99, 0.05);
+  }
+  .card-2{
+    border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+
+background: rgba(41, 206, 246, 0.05);
+  }
+  .card-3{
+    border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+
+background: rgba(233, 68, 68, 0.05);
   }
   .newsletter-container{
     width: 80%;
