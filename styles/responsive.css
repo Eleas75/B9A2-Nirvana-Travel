@@ -22,6 +22,12 @@
     .banner{
        margin: 20px auto;
     }
+    .banner-title{
+
+    font-size: 25px;
+
+    font-weight: 800;
+    }
     form{
         flex-direction: column;
         min-height: 300px;

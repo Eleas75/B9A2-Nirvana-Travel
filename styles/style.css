@@ -9,9 +9,7 @@
 }
 body{
     font-family: 'Mulish', sans-serif;
- align-items: center;
- padding: auto;
- margin: auto;
+ 
 }
 /* styles for nav */
 .container{
@@ -89,7 +87,6 @@ font-weight: 400;
 .banner-title{
     color: #FFF;
 
-font-family: Mulish;
 font-size: 34px;
 font-style: normal;
 font-weight: 800;
