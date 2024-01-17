@@ -3,16 +3,31 @@
    
    .container{
     width: 80%;
-    max-resolution: 0 auto;
+    margin:0 auto;
     display: flex; 
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 57%;
-   }
-   .nav-content{
+    gap: 20px;
     
    }
+   .title{
+font-size: 20px;
+
+}
+.special{
+    
+font-size: 20px;
+
+}
+.nav-title{
+    width: 90%;
+    
+    
+}
+.nav-content {
+    width: 10%;
+}
     .nav-content li{
         display:none;
     }
@@ -23,6 +38,7 @@
        margin: 20px auto;
     }
     .banner-title{
+        margin-bottom: 10px;
 
     font-size: 25px;
 
