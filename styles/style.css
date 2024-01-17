@@ -9,7 +9,9 @@
 }
 body{
     font-family: 'Mulish', sans-serif;
- border: 2px solid red;
+ align-items: center;
+ padding: auto;
+ margin: auto;
 }
 /* styles for nav */
 .container{
