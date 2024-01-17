@@ -160,11 +160,11 @@ border: none;
 }
 /* styles for main section */
 .tours{
-    max-width: 80%;
+    width: 80%;
     margin: 20px auto;
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    justify-content: space-between;
     
 }
 .tour-content{
