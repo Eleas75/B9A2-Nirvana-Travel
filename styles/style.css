@@ -202,7 +202,7 @@ margin-bottom: 20px;
     height: 400px;
 }
 .destination{
-    max-width: 90%;
+    width: 90%;
     margin: 20px auto;
     display: flex;
     flex-direction: column;
