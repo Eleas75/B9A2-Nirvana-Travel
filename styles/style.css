@@ -9,7 +9,7 @@
 }
 body{
     font-family: 'Mulish', sans-serif;
-  
+ border: 2px solid red;
 }
 /* styles for nav */
 .container{

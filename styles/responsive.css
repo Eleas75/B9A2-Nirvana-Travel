@@ -28,7 +28,12 @@
         justify-content: space-around;
         align-items: center;
     }
-    
+    .choose-card{
+        width: 90%;
+       
+        
+      } 
+
     .tours{
         max-width: 80%;
         margin: 20px auto;
@@ -47,6 +52,7 @@
         width: 90%;
         
     }
+
     .destination-container img{
         object-fit: cover;
         width:100%;
