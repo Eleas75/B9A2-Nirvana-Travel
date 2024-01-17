@@ -71,10 +71,11 @@
        ;
       }
       .rotator{
-       width: 58%; 
+       width: 70%; 
     position: absolute;
-    top: 72%;
-    left: 38%;
+    top: 70%;
+    left: 25%;
+    padding: 5px;
       }
       .newsletter-content{
         display: flex;
