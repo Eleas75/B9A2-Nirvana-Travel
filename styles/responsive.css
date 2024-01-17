@@ -44,10 +44,12 @@
         justify-content:center;
         align-items: center;
         border-radius: 8px;
+        width: 90%;
         
     }
     .destination-container img{
         object-fit: cover;
+        width:100%;
     }
     .card-container{
         display: flex;
@@ -69,10 +71,10 @@
        ;
       }
       .rotator{
-        
+       width: 58%; 
     position: absolute;
-    top: 70%;
-    left: 20%;
+    top: 72%;
+    left: 38%;
       }
       .newsletter-content{
         display: flex;
@@ -85,11 +87,14 @@
         width: 80%;
         display: flex;
         flex-direction:column;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
-        gap: 10px; 
-        height: auto;
+        gap: 20px; 
+        min-height: 700px;
       }
+    .footer-description{
+        padding: 0 20px;
+    }
 }
 @media screen and (min-width:992px){
     .container .nav-content ul img{
